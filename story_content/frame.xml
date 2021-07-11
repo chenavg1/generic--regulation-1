@@ -50,8 +50,8 @@
         <options>
           <option name="flow" value="free" />
           <option name="wraplistitems" value="false" />
-          <option name="tooltips" value="true" />
-          <option name="autocollapse" value="true" />
+          <option name="tooltips" value="false" />
+          <option name="autocollapse" value="false" />
           <option name="autonumber" value="false" />
           <option name="enableresultsicons" value="true" />
         </options>
