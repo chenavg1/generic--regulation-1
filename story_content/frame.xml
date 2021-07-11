@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
-    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
-    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
-    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="npnxnanbsnfns00000100101" font="Open Sans" controllayout="npnxnanbsnfns00000100101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="pxabnsnfns00000100101" font="Open Sans" controllayout="pxabnsnfns00000100101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="npxnabnsnfns00000100101" font="Open Sans" controllayout="npxnabnsnfns00000100101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="npnxnanbnsnfns00000100101" font="Open Sans" controllayout="npnxnanbnsnfns00000100101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
+    <layout name="pxabnsnfns00000100100" font="Open Sans" controllayout="pxabnsnfns00000100100" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
     <layout name="npnxnanbnsnfns00001000101" font="Open Sans" controllayout="npnxnanbnsnfns00001000101" colorscheme="npnxnanbnsnfns00001000101" string_table="npnxnanbnsnfns00001000101" />
   </layouts>
   <control_options>
@@ -59,11 +59,16 @@
       <optiongroup name="controls">
         <options>
           <option name="volume" value="true" />
-          <option name="seekbar" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="true">
+          <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Open Sans" />
             </options>
@@ -79,7 +84,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100101">
+    <control_layout name="npnxnanbsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -95,14 +100,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100101">
+    <control_layout name="pxabnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -118,14 +123,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100101">
+    <control_layout name="npxnabnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -141,14 +146,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
+    <control_layout name="npnxnanbnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -164,14 +169,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100100">
+    <control_layout name="pxabnsnfns00000100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -187,7 +192,7 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -1248,7 +1253,7 @@
             <slidelink slideid="_player.5kOVHXX2Pfn.66yToK9XHmd" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.5xMfRPfSWO0" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.65Msgexn9hu" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5kOVHXX2Pfn.64TVfQncBVb" displaytext="סיכום המשמרת ברפורט היומי יכלול:&#xA;קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
+            <slidelink slideid="_player.5kOVHXX2Pfn.64TVfQncBVb" displaytext="סיכום המשמרת ברפורט היומי יכלול: קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.6G412gB4sNc" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.5rRUzktucAH" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.6WitTxxrKsH" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1258,9 +1263,9 @@
             <slidelink slideid="_player.5kOVHXX2Pfn.5oFAYALqqMX" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.5mNWoKyw9ka" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.6Co9bCfDSAy" displaytext="חוק חסרי ישע מתייחס:" expand="false" type="slide" />
-            <slidelink slideid="_player.5kOVHXX2Pfn.5ggJTiRJWGN" displaytext="מתוך כבוד והוגנות כלפי האנשים שבאחריותינו נקפיד על:&#xA;&#xA;קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
+            <slidelink slideid="_player.5kOVHXX2Pfn.5ggJTiRJWGN" displaytext="מתוך כבוד והוגנות כלפי האנשים שבאחריותינו נקפיד על:  קיימת יותר מתשובה אחת נכונה" expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.5uyu1jBe2ox" displaytext="במידה והיה לך יסוד סביר לחשוב כי חלה עבירה בחסר ישע חובה עליך-" expand="false" type="slide" />
-            <slidelink slideid="_player.5kOVHXX2Pfn.5Vmgu2xr9WJ" displaytext="אסטתיקה טיפולית במהלך הטיפול באנשים שבאחריותינו כוללת:&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.5kOVHXX2Pfn.5Vmgu2xr9WJ" displaytext="אסטתיקה טיפולית במהלך הטיפול באנשים שבאחריותינו כוללת: " expand="false" type="slide" />
             <slidelink slideid="_player.5kOVHXX2Pfn.5ksMfMchfxR" displaytext="כאשר ממלאים טופס ארוע חריג יש להקפיד על:" expand="false" type="slide" />
           </links>
         </slidelink>
